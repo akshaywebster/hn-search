@@ -53,7 +53,7 @@ const AppProvider = ({ children }) => {
     const url = `${API_ENDPOINT}query=${state.query}&page=${state.page}`
     console.log(url)
     fetchStories(url)
-  }, [])
+  }, [state.query])
 
   return (
     <AppContext.Provider value={{ ...state, removeStory, handleSearch }}>
