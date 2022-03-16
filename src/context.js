@@ -14,7 +14,7 @@ const API_ENDPOINT = 'https://hn.algolia.com/api/v1/search?'
 const initialState = {
   isLoading: true, // state for loading
   hits: [], // what we are getting back from response.
-  query: 'react',
+  query: 'javascript',
   page: 0,
   nbPages: 0, // number of pages, by default 0 => for first page
 }
@@ -67,7 +67,7 @@ const AppProvider = ({ children }) => {
     </AppContext.Provider>
   )
 }
-// make sure use
+
 export const useGlobalContext = () => {
   return useContext(AppContext)
 }
