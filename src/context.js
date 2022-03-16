@@ -48,15 +48,21 @@ const AppProvider = ({ children }) => {
     dispatch({ type: HANDLE_SEARCH, payload: query })
   }
 
+  const handlePage = (value) => {
+    dispatch({ type: HANDLE_PAGE, payload: value })
+  }
+
   useEffect(() => {
     // when app loads, fetch the stories
     const url = `${API_ENDPOINT}query=${state.query}&page=${state.page}`
     console.log(url)
     fetchStories(url)
-  }, [state.query])
+  }, [state.query, state.page])
 
   return (
-    <AppContext.Provider value={{ ...state, removeStory, handleSearch }}>
+    <AppContext.Provider
+      value={{ ...state, removeStory, handleSearch, handlePage }}
+    >
       {children}
     </AppContext.Provider>
   )
