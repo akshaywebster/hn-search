@@ -1,7 +1,7 @@
 <h1 align="center">
   Hacker News Search 🔎 🚀
   <br>
-  <img src="https://raw.githubusercontent.com/akshaywebster/hn-search/main/screenshot.png" alt="Y Combinator logo" title="y combinator logo" width="300">
+  <img src="https://raw.githubusercontent.com/akshaywebster/hn-search/main/screenshot.png?token=GHSAT0AAAAAABRAY2M3UB4NHATYJYWEDBAQYRTAIZA" alt="Y Combinator logo" title="y combinator logo" width="300">
   <br>
 </h1>
 <p align="center" style="font-size: 1.2rem;">A Hacker News Search app with server-side pagination, using the HN Search API by Algolia, built in React. ⚛️</p>
