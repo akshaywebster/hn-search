@@ -43,7 +43,7 @@
 
 ### Live Site
 
-[Demo](https://webster-hn-search.netlify.app/)
+[Live Site Link 🔗](https://hn-search.akshaywebster.com/)
 
 ### Screenshot:
 
@@ -54,6 +54,8 @@
 ### Hacker News API
 
 [Hacker News Search API Docs](https://hn.algolia.com/api)
+
+---
 
 ### Disclaimer
 
