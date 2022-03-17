@@ -1,8 +1,21 @@
-# Hacker News Search
-
-![Y Combinator logo](./public/logo192.png)
+<h1 align="center">
+  Hacker News Search 🔎 🚀
+  <br>
+  <img src="https://raw.githubusercontent.com/akshaywebster/hn-search/main/screenshot.png" alt="Y Combinator logo" title="y combinator logo" width="300">
+  <br>
+</h1>
+<p align="center" style="font-size: 1.2rem;">A Hacker News Search app with server-side pagination, using the HN Search API by Algolia, built in React. ⚛️</p>
 
 ## My process
+
+### Table of Contents
+
+- [Built With](#built-with)
+- [What I learned](#what-i-learned)
+- [Live Site](#live-site)
+- [Screenshot](#screenshot)
+- [Hacker News API](#hacker-news-api)
+- [Disclaimer](#disclaimer)
 
 ### Built with
 
@@ -28,7 +41,7 @@ By default, I have set it to fetch Hacker News posts related to `JavaScript` key
 
 When the input field is empty, we pulled data from `https://hn.algolia.com/?q=""` and it displays the most popular Hacker News posts of all time.
 
-### Demo
+### Live Site
 
 [Demo](https://webster-hn-search.netlify.app/)
 
@@ -38,6 +51,10 @@ When the input field is empty, we pulled data from `https://hn.algolia.com/?q=""
 
 ---
 
-#### Hacker News API
+### Hacker News API
 
 [Hacker News Search API Docs](https://hn.algolia.com/api)
+
+### Disclaimer
+
+Hacker News, The Y Combinator name and logos are trademarks of Y Combinator (collectively the “Y Combinator Trademarks”). I do not claim the rights to the intellectual property of Y Combinator.
