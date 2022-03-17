@@ -31,15 +31,15 @@
 
 ### What I learned
 
-In this project, I worked with the Hacker News Search API provided by Algolia to create a HN search app.
+🔹 In this project, I worked with the Hacker News Search API provided by Algolia to create a HN search app.
 
-To make this app work, I used useContext hook to create common data that can be accessed in multiple components. I also used useReducer to manage multiple states to keep track of data coming from the API. I also used a custom hook called `useGlobalContext` for sending prop data from useContext.
+🔹 To make this app work, I used useContext hook to create common data that can be accessed in multiple components. I also used useReducer to manage multiple states to keep track of data coming from the API. I also used a custom hook called `useGlobalContext` for sending prop data from useContext.
 
-The API takes `'https://hn.algolia.com/api/v1/search?'` as endpoint, and on top of that, I used two parameters `query` & `page` to fetch relevant posts & to get the page number of the feed respectively.
+🔹 The API takes `'https://hn.algolia.com/api/v1/search?'` as endpoint, and on top of that, I used two parameters `query` & `page` to fetch relevant posts & to get the page number of the feed respectively.
 
-By default, I have set it to fetch Hacker News posts related to `JavaScript` keyword.
+🔹 By default, I have set it to fetch Hacker News posts related to `JavaScript` keyword.
 
-When the input field is empty, we pulled data from `https://hn.algolia.com/?q=""` and it displays the most popular Hacker News posts of all time.
+🔹 When the input field is empty, we pulled data from `https://hn.algolia.com/?q=""` and it displays the most popular Hacker News posts of all time.
 
 ### Live Site
 
